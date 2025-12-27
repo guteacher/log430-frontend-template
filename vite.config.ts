@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 // https://vite.dev/config/
+// Changez proxy.target en fonction de votre environnement
 export default defineConfig({
   plugins: [vue()],
   server: {
