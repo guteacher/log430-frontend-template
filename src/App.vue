@@ -5,10 +5,10 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <div>
     <a href="https://www.etsmtl.ca/etudes/cours/log430" target="_blank">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Ets_quebec_logo.png" width="250">    
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Ets_quebec_logo.png" width="250">
     </a>
   </div>
-  <HelloWorld msg="Bienvenu(e) à LOG430" />
+  <HelloWorld msg="Bienvenu⸱e à LOG430!" />
 </template>
 
 <style scoped>

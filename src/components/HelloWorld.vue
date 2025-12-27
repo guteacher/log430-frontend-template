@@ -32,14 +32,15 @@ const fetchProducts = async () => {
 <template>
   <h1>{{ msg }}</h1>
   <p>
-    Changez components/HelloWorld.vue pour testez le HMR (Hot Reloading)
+    Changez le fichier components/HelloWorld.vue pour tester le HMR (Hot Reloading)
   </p>
+  <p>Ensuite, testez les exemples ci-dessous :</p>
 
   <div class="card">  
-    <p>Exemple 1 : compteur</p>
+    <p>Exemple 1 - Compteur</p>
     <button type="button" @click="count++">Vous avez cliqué ici {{ count }} fois.</button>
     <hr>
-    <p>Exemple 2 : requête à une API (labo 3)</p>
+    <p>Exemple 2 - Requête à une API (labo 3)</p>
     <button @click="fetchProducts" :disabled="loading">
       {{ loading ? 'Chargement...' : 'Faire une requête à /products/1' }}
     </button>
